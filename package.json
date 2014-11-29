@@ -1,0 +1,24 @@
+{
+  "name": "ep_glo",
+  "version": "0.0.1",
+  "description": "A theme for etherpad to hook into glocalmotion.",
+  "author": "Glocal Cooperative <info@glocal.com>",
+  "contributors": [
+    "Thiago de Mello Bueno <thiago@madeofpeople.org>"
+  ],
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "devDependencies": {
+    "node-sass": "^1.2.3"
+  },
+  "scripts": {
+    "sass": "node-sass --source-comments=true ./src/scss/styles.scss ./static/css/styles.css",
+    "sass:min": "node-sass --output-style=compressed --source-comments=false ./src/scss/styles.scss ./static/css/styles.css"
+  },
+  "main": "index.js",
+  "license": "AGPLv3",
+  "readme": "",
+  "readmeFilename": "README.md",
+  "_id": "ep_glo@0.0.1"
+}

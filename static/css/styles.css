@@ -1,0 +1,39 @@
+/* line 1, /Users/thiago/repos/etherpad-lite/node_modules/ep_glo/src/scss/components/toolbar */
+.toolbar {
+  background-color: #fff;
+  border-bottom: none;
+  padding: 0; }
+
+/* line 7, /Users/thiago/repos/etherpad-lite/node_modules/ep_glo/src/scss/components/toolbar */
+.toolbar ul {
+  padding-left: 0;
+  padding-right: 0; }
+
+/* line 12, /Users/thiago/repos/etherpad-lite/node_modules/ep_glo/src/scss/components/toolbar */
+.toolbar ul li {
+  margin-left: 0; }
+
+/* line 18, /Users/thiago/repos/etherpad-lite/node_modules/ep_glo/src/scss/components/toolbar */
+.toolbar ul li a.grouped-left, .toolbar ul li a.grouped-right, .toolbar ul li a {
+  display: block;
+  border: none;
+  background: none;
+  padding: 0.75em;
+  border-radius: 0;
+  color: #666; }
+
+/* line 27, /Users/thiago/repos/etherpad-lite/node_modules/ep_glo/src/scss/components/toolbar */
+.toolbar ul li a:hover {
+  background: #666;
+  border-radius: 50%;
+  color: #fafafa; }
+
+/* line 32, /Users/thiago/repos/etherpad-lite/node_modules/ep_glo/src/scss/components/toolbar */
+.toolbar ul li a:hover .buttonicon {
+  color: #fff; }
+
+/* line 2, /Users/thiago/repos/etherpad-lite/node_modules/ep_glo/src/scss/components/pad */
+#editorcontainer, #editorcontainerbox {
+  position: static !important;
+  top: auto;
+  bottom: auto; }

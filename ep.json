@@ -1,0 +1,11 @@
+{
+  "parts": [{
+    "name": "main",
+    "client-hooks": {
+      "aceEditorCSS": "ep_glo/static/js/index"
+    },
+    "hooks": {
+      "eejsBlock_styles": "ep_glo/index"
+    }
+  }]
+}
